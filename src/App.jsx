@@ -8,6 +8,7 @@ import Cards from './Components/Cards'
 import { CarouselDemo } from './Components/Carousel'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
+import AnimateCard from './Components/AnimateCard';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
       <Services/>
       <Cards/>
       <CarouselDemo/>
+      <AnimateCard/>
       <Contact/>
       <Footer/>
     </>

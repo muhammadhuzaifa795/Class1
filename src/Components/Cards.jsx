@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 const Cards = () => {
   return (
-    <div className='mt-16 bg-blue-50 pb-16 pt-4' id='Services' >
+    <div id='services' className='mt-16 bg-blue-50 pb-16 pt-4'  >
         {/* <hr /> */}
         <h1  className='my-14 text-center text-blue-900 font-bold ' data-aos="fade-up"
      data-aos-anchor-placement="center-bottom" >Services Cards</h1>
